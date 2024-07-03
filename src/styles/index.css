@@ -10,3 +10,51 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: #282A36;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+input{
+    width: 100%;
+    background-color: #282A36;
+    border: 0;
+    color: white;
+}
+
+.taskList{
+    position: relative;
+    border-top: 1px #282A36 solid;
+    list-style-type: none;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.deleteTask{
+    position: absolute;
+    inset: 0;
+    text-align: end;
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    padding-right: 5%;
+}
+
+.deleteTask:hover{
+    color: red;
+}
+
+.taskLabel{
+    border: 0;
+}
+p{
+    border-top: 1px solid #282A36;
+}
+
+.contenedor{
+
+    background-color: #44475A;
+    border: 1px #F8F8F2 solid;
+    width: 50%;
+}
